@@ -1,0 +1,6 @@
+alias update="source $HOME/.bashrc"
+alias myip=" curl http://ipecho.net/plain; echo"
+alias usage="du -h -d1"
+alias runp="lsof -i"
+alias lll="ls -la"
+alias size="du -sh"
