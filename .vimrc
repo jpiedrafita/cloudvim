@@ -21,6 +21,7 @@ set showmatch
 set sw=2
 "set relativenumber
 set laststatus=2
+set autoindent expandtab tabstop=2 shiftwidth=2
 
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
