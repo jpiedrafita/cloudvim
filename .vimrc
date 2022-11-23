@@ -23,6 +23,12 @@ set sw=2
 set laststatus=2
 set autoindent expandtab tabstop=2 shiftwidth=2
 
+set tabstop=2
+set expandtab
+set shiftwidth=2
+set autoindent
+set smartindent
+
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 let NERDTreeQuitOnOpen=1
