@@ -1,7 +1,14 @@
 # Install cloudvim
+
+```
 wget -O - https://raw.githubusercontent.com/jpiedrafita/cloudvim/master/cloudvim.sh | sudo bash
+```
+
 or
-sh -C "$(curl -fsSL https://raw.githubusercontent.com/jpiedrafita/cloudvim/master/cloudvim.sh)"
+
+```
+curl -sSL https://raw.githubusercontent.com/jpiedrafita/cloudvim/master/cloudvim.sh | sudo bash
+```
 
 # Install plugins in vim
 :PluginInstall
