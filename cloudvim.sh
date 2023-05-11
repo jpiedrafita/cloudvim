@@ -9,9 +9,13 @@ elif command -v yum &> /dev/null; then
     sudo yum install -y git vim
 fi
 
+#Vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
 wget $HOME/.vimrc https://raw.githubusercontent.com/jpiedrafita/cloudvim/master/.vimrc
+vim +PluginInstall +qall
+
+#shell
 echo "source $HOME/aliases" >> $HOME/.bashrc
 wget $HOME/aliases https://raw.githubusercontent.com/jpiedrafita/cloudvim/master/aliases
 export PS1="\n\e[1;32m[\u@\h \W]\$ \e[m "
