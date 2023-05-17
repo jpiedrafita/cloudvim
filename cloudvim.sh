@@ -13,7 +13,9 @@ fi
 
 #shell
 #export PS1="\n\e[1;32m[\u@\h \W]\$ \e[m "
-echo 'export PS1="\n\e[1:wq;32m[\u@\h \W]\$ \e[m "' >> ~/.bashrc
+echo 'export PS1="\n\e[1;32m[\u@\h \W]\$ \e[m "' >> ~/.bashrc
+
+
 echo "source $HOME/aliases" >> $HOME/.bashrc
  
 wget $HOME/aliases https://raw.githubusercontent.com/jpiedrafita/cloudvim/master/aliases
