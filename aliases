@@ -4,3 +4,11 @@ alias usage="du -h -d1"
 alias runp="lsof -i"
 alias lll="ls -la"
 alias size="du -sh"
+
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias topten="history | commands | sort -rn | head"
+alias dirs='dirs -v | head -10'
+alias docker=nerdctl
+alias gpush='git add . && git commit -m "Autopush" && git push -u origin HEAD'
+alias fucking="sudo"
+
