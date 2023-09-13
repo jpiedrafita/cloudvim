@@ -16,3 +16,5 @@ or
 vim +PluginInstall +qall
 ```
 
+# Color shell
+export PS1="\n\e[1;32m[\u@\h \W]\$ \e[m "
